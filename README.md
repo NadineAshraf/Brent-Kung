@@ -1,4 +1,4 @@
-**Hello, This project is about Brent-Kung-8-bits using VHDL.**
+**Hello, This project is about Kogge-Stone-8-bits using VHDL.**
 # Team Members
 > Nadine Ashraf Adeeb.                                                                                                                                                     
 > Menna Ahmed Heshmat.                                                                                                                                                                              
