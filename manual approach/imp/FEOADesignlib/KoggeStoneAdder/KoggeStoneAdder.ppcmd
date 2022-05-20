@@ -1,0 +1,140 @@
+# PPCMD 1 
+# addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit METAL2 -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit METAL1 -number_of_sets 5 -skip_via_on_pin Standardcell -stacked_via_top_layer METAL6 -padcore_ring_top_layer_limit METAL2 -spacing 0.46 -merge_stripes_value 1.5 -direction horizontal -layer METAL1 -block_ring_bottom_layer_limit METAL1 -width 0.44 -nets {VDD! GND!} -stacked_via_bottom_layer METAL1
+# 8 
+# 2 
+# 1 
+# 0 
+# 0 
+# 2 
+# BOX_LIST 
+# 4370 4830 75010 73470 0 
+# 5270 5730 74110 72570 0 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# GND! 440 1 0 11020 70140 14615 0 0 
+# VDD! 440 1 0 10120 70140 14615 0 0 
+# END_NET_INFO_LIST 
+# END_PPCMD 1 
+
+# PPCMD 2 
+# addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit METAL2 -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit METAL1 -number_of_sets 5 -skip_via_on_pin Standardcell -stacked_via_top_layer METAL6 -padcore_ring_top_layer_limit METAL2 -spacing 0.46 -merge_stripes_value 1.5 -direction horizontal -layer METAL1 -block_ring_bottom_layer_limit METAL1 -width 0.44 -nets {VDD! GND!} -stacked_via_bottom_layer METAL1
+# 7 
+# 2 
+# 1 
+# 0 
+# 0 
+# 2 
+# BOX_LIST 
+# 4370 4830 75010 73470 0 
+# 5270 5730 74110 72570 0 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# GND! 440 1 0 11020 70140 14615 0 0 
+# VDD! 440 1 0 10120 70140 14615 0 0 
+# END_NET_INFO_LIST 
+# END_PPCMD 2 
+
+# PPCMD 3 
+# addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit METAL3 -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit METAL1 -number_of_sets 5 -skip_via_on_pin Standardcell -stacked_via_top_layer METAL6 -padcore_ring_top_layer_limit METAL3 -spacing 0.46 -merge_stripes_value 1.5 -layer METAL2 -block_ring_bottom_layer_limit METAL1 -width 0.44 -nets {VDD! GND!} -stacked_via_bottom_layer METAL1
+# 6 
+# 2 
+# 1 
+# 0 
+# 0 
+# 2 
+# BOX_LIST 
+# 4370 4390 75010 73030 0 
+# 5270 5290 74110 72130 0 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# GND! 440 2 0 10980 70220 14645 0 0 
+# VDD! 440 2 0 10080 70220 14645 0 0 
+# END_NET_INFO_LIST 
+# END_PPCMD 3 
+
+# PPCMD 4 
+# addRing -skip_via_on_wire_shape Noshape -spacing_bottom 0.46 -width_left 0.44 -width_bottom 0.44 -width_top 0.44 -spacing_top 0.46 -skip_via_on_pin Standardcell -layer_bottom METAL1 -center 1 -stacked_via_top_layer METAL6 -width_right 0.44 -type core_rings -jog_distance 1.5 -offset_bottom 1.5 -layer_top METAL1 -threshold 1.5 -offset_left 1.5 -spacing_right 0.46 -spacing_left 0.46 -offset_right 1.5 -offset_top 1.5 -layer_right METAL2 -nets {VDD! GND!} -follow core -stacked_via_bottom_layer METAL1 -layer_left METAL2
+# 5 
+# 32 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 4 
+
+# PPCMD 5 
+# addRing -skip_via_on_wire_shape Noshape -spacing_bottom 0.46 -width_left 0.44 -width_bottom 0.44 -width_top 0.44 -spacing_top 0.46 -skip_via_on_pin Standardcell -layer_bottom METAL1 -center 1 -stacked_via_top_layer METAL6 -width_right 0.44 -type core_rings -jog_distance 1.5 -offset_bottom 1.5 -layer_top METAL1 -threshold 1.5 -offset_left 1.5 -spacing_right 0.46 -spacing_left 0.46 -offset_right 1.5 -offset_top 1.5 -layer_right METAL2 -nets {VDD! GND!} -follow core -stacked_via_bottom_layer METAL1 -layer_left METAL2
+# 4 
+# 32 
+# 1 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# GND! 440 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 39910 4610 39910 73250 
+# END_RING_PT_INFO_LIST 
+# GND! 440 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 4590 38930 75230 38930 
+# END_RING_PT_INFO_LIST 
+# VDD! 440 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 39910 5510 39910 72350 
+# END_RING_PT_INFO_LIST 
+# VDD! 440 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 5490 38930 74330 38930 
+# END_RING_PT_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 5 
+
+# PPCMD 6 
+# setViaGenMode -parameterized_via_only true
+# 3 
+# 0 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 6 
+
+# PPCMD 7 
+# setViaGenMode -symmetrical_via_only true
+# 2 
+# 0 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 7 
+
+# PPCMD 8 
+# setViaGenMode -symmetrical_via_only true
+# 1 
+# 0 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 8 
+
