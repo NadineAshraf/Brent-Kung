@@ -1,0 +1,7 @@
+# File Created by cadence,,, at Mon May 16 21:29:36 2022
+# assisted by CdsLibEditor
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/cds.lib
+DEFINE MentorObserverLib $CALIBRE_HOME/shared/pkgs/icv/tools/realtime/virtuoso/MentorObserverLib
+DEFINE tsmc18rf /home/cadence/Library/tsmc18rf/analog/tsmc18rf
+DEFINE tsmc18 /home/cadence/Library/tsmc18rf/std/tsmc18
+DEFINE FEOADesignlib FEOADesignlib
