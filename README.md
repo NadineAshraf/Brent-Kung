@@ -1,7 +1,7 @@
 **Hello, This project is about Kogge-Stone-8-bits using Verilog HDL.**
 # Team Members
 > Nadine Ashraf Adeeb.                                                                                                                                                     
-> Menna Ahmed Heshmat.                                                                                                                                                                              
+> Menna Ahmed Heshmat. ( **Github:** https://github.com/mennaaheshmat )                                                                                                                                                                          
 > Tasneem Yassin Mostafa.
 
 # Overview of the adder:
